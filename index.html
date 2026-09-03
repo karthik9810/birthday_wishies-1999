@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, Ammu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,600&family=Caveat:wght@600;700&family=Poppins:wght@300;400;500;600&family=Catamaran:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<canvas id="confetti"></canvas>
+ 
+<section class="hero">
+  <div class="eyebrow-note">for my favourite person</div>
+  <h1>Happy Birthday,<br><em>Ammu</em></h1>
+  <p class="hero-sub tamil-poem">பச்சை சேலையில்<br>பூ போல வந்தாய்,<br>மெல்லிய சிரிப்பால்<br>மனதை கவர்ந்தாய்.<br>கண்களில் ஒரு அழகு,<br>சிரிப்பில் ஒரு இனிமை,<br>உன்னை பார்த்த அந்த நொடி<br>மனதில் ஒரு கவிதை. &#10084;&#65039; &#127800;</p>
+  <div class="photo-frame">
+    <img src="photo2.jpg" alt="Ammu">
+  </div>
+  <div class="scroll-hint">
+    scroll down, there's a game
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5C6B2E" stroke-width="2"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+  </div>
+</section>
+ 
+<section id="balloon-section">
+  <div class="section-note">turning 24</div>
+  <h2 class="section-title">Happy Birthday, Ammu!</h2>
+  <p class="treasure-intro">One tap for the full celebration.</p>
+ 
+  <div class="balloon-stage" id="balloon-stage">
+    <button class="celebrate-btn" id="celebrate-btn">Celebrate</button>
+    <div class="birthday-wishes" id="birthday-wishes">
+      <div class="big-24">24</div>
+      <p class="wish-line">Happy 24th Birthday, Ammu &#127881;</p>
+      <p class="wish-sub">Here's to the reader, the wanderer, the foodie, and every little thing that makes you, you.</p>
+    </div>
+  </div>
+</section>
+ 
+<section id="counter-section">
+  <div class="section-note">since she asked you</div>
+  <h2 class="section-title">Official Since Aug 10</h2>
+  <p class="treasure-intro">The day she made it official.</p>
+ 
+  <div class="counter-grid">
+    <div class="counter-box"><span class="counter-num" id="c-days">0</span><span class="counter-label">days</span></div>
+    <div class="counter-box"><span class="counter-num" id="c-hours">0</span><span class="counter-label">hours</span></div>
+    <div class="counter-box"><span class="counter-num" id="c-mins">0</span><span class="counter-label">mins</span></div>
+    <div class="counter-box"><span class="counter-num" id="c-secs">0</span><span class="counter-label">secs</span></div>
+  </div>
+</section>
+ 
+<section id="flip-section">
+  <div class="section-note">match the pairs</div>
+  <h2 class="section-title">Little Things About You</h2>
+  <p class="treasure-intro">Flip two at a time. Every match unlocks a line about you.</p>
+ 
+  <div class="flip-hud">
+    <span id="flip-moves">Moves: 0</span>
+    <span id="flip-found">Matched: 0 / 5</span>
+  </div>
+ 
+  <div class="flip-grid" id="flip-grid"></div>
+ 
+  <div class="flip-lines" id="flip-lines"></div>
+</section>
+ 
+ 
+ 
+<section id="memories-section">
+  <div class="section-note">a few from the last few months</div>
+  <h2 class="section-title">Little Moments</h2>
+ 
+  <div class="deck-wrap" id="deck-wrap">
+    <figure class="deck-card" style="--i:0;" data-i="0">
+      <img src="photo3.jpg" alt="">
+      <figcaption>the look that stops a room</figcaption>
+    </figure>
+    <figure class="deck-card" style="--i:1;" data-i="1">
+      <img src="photo4.jpg" alt="">
+      <figcaption>golden hour, no filter needed</figcaption>
+    </figure>
+    <figure class="deck-card" style="--i:2;" data-i="2">
+      <img src="photo5.jpg" alt="">
+      <figcaption>the quiet kind of happy</figcaption>
+    </figure>
+    <figure class="deck-card" style="--i:3;" data-i="3">
+      <img src="photo6.jpg" alt="">
+      <figcaption>that smile, every time</figcaption>
+    </figure>
+    
+  </div>
+  <p class="deck-hint">tap the front photo to see the next one</p>
+  </section>
+ 
+<section id="dream-section">
+  <div class="section-note">for your next chapter</div>
+  <h2 class="section-title">Go Be a Dancer, Ammu</h2>
+ 
+  <div class="dream-layout">
+    <div class="dream-photo">
+      <img src="photo7.jpg" alt="Ammu as a Bharatanatyam dancer">
+    </div>
+    <div class="dream-card">
+      <p class="tamil-note">உன் மனசுல எப்போவுமே ஒரு ஆசை இருக்கு &mdash; நடனம் கத்துக்கணும்னு. அதை நீ வெறும் கனவா மட்டும் வச்சுக்காம, இந்த வருஷமே ஒரு குருவை தேடி போ. சிலம்பு கட்டு, மேடையேறு, தப்பு நடந்தாலும் பரவாயில்லை. நான் எப்பவும் உன் பக்கத்துல, முதல் வரிசையில் இருந்து பார்த்துக்கிட்டே இருப்பேன்.</p>
+      <p class="tamil-note">கல்யாணத்துக்கு அப்புறம், உன் இந்த கனவுக்கு நானே கை கொடுப்பேன், நிச்சயமா.</p>
+      <div class="dream-sign">&mdash; கார்த்திக்</div>
+    </div>
+  </div>
+</section>
+ 
+<section id="song-section">
+  <div class="section-note">press play</div>
+  <h2 class="section-title">Our Song</h2>
+  <div class="song-embed">
+    <div class="song-art">
+      <img src="photo8.jpg" alt="">
+    </div>
+    <div class="song-info">
+      <span class="song-tap">our song</span>
+      <span class="song-title">Gone, Gone, Gone</span>
+      <span class="song-sub">Phillip Phillips</span>
+    </div>
+    <button class="song-play" id="song-play-btn">&#9654;</button>
+  </div>
+  <audio id="song-audio" preload="none">
+    <source src="our-song.mp3" type="mpeg">
+  </audio>
+</section>
+ 
+<section id="heart-game-section">
+  <div class="section-note">one more game, promise</div>
+  <h2 class="section-title">Catch the Hearts</h2>
+  <p class="treasure-intro">15 seconds. Tap as many as you can, kutty.</p>
+ 
+  <div class="heart-game">
+    <div class="heart-hud">
+      <span id="heart-score">Score: 0</span>
+      <span id="heart-timer">Time: 15</span>
+    </div>
+    <div class="heart-field" id="heart-field">
+      <button class="heart-start" id="heart-start">Start</button>
+    </div>
+    <div class="heart-result" id="heart-result"></div>
+  </div>
+</section>
+ 
+<section id="adventure-section">
+  <div class="section-note">this or that</div>
+  <h2 class="section-title">Pick One, Kutty</h2>
+ 
+  <div class="adventure-wrap">
+    <div class="adventure-photo">
+      <img src="photo9.jpg" alt="Karthik and Ammu">
+    </div>
+ 
+    <div class="tot-game" id="tot-game">
+      <div class="tot-progress" id="tot-progress"></div>
+ 
+      <div class="tot-q active" data-i="0">
+        <h3>Beach or hill town?</h3>
+        <div class="tot-choices">
+          <button data-tag="beach">Beach</button>
+          <button data-tag="hills">Hill town</button>
+        </div>
+      </div>
+ 
+      <div class="tot-q" data-i="1">
+        <h3>Read the book or watch the movie first?</h3>
+        <div class="tot-choices">
+          <button data-tag="book">Book, always</button>
+          <button data-tag="movie">Movie, less effort</button>
+        </div>
+      </div>
+ 
+      <div class="tot-q" data-i="2">
+        <h3>Street food or fancy restaurant?</h3>
+        <div class="tot-choices">
+          <button data-tag="street">Street food</button>
+          <button data-tag="fancy">Fancy dinner</button>
+        </div>
+      </div>
+ 
+      <div class="tot-q" data-i="3">
+        <h3>New jimikki or new saree?</h3>
+        <div class="tot-choices">
+          <button data-tag="jimikki">Jimikki</button>
+          <button data-tag="saree">Saree</button>
+        </div>
+      </div>
+ 
+      <div class="tot-q" data-i="4">
+        <h3>Call your dad or text me first with good news?</h3>
+        <div class="tot-choices">
+          <button data-tag="dad">Dad, obviously</button>
+          <button data-tag="me">You, obviously</button>
+        </div>
+      </div>
+ 
+      <div class="tot-result" id="tot-result">
+        <div class="section-note">that's you, basically</div>
+        <p id="tot-result-text"></p>
+        <button class="adv-restart" id="tot-restart">Play again</button>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+ 
+<section>
+  <div class="section-note">a little something from Karthik</div>
+  <h2 class="section-title">Before you go&hellip;</h2>
+  <div class="note-card">
+    <p class="tamil-note">உன் சிரிப்பில் ஒரு வெளிச்சம் இருக்கு, அது என் நாள் முழுவதையும் மாற்றிடும். நீ பேசும் ஒவ்வொரு கதையிலும், நீ காட்டும் ஒவ்வொரு அக்கறையிலும், நான் மீண்டும் மீண்டும் காதலிக்கிறேன் உன்னை.</p>
+    <p class="tamil-note">இந்த பிறந்தநாளில் நான் கேட்பது ஒன்றே ஒன்று &mdash; நீ எப்போதும் இப்படியே, உன்னைப் போலவே இரு. மீதி எல்லாம் நான் பார்த்துக்கொள்கிறேன், அம்மு.</p>
+    <div class="note-sign">&mdash; கார்த்திக்</div>
+  </div>
+</section>
+ 
+<section class="wish-area">
+  <div class="section-note">one more thing</div>
+  <h2 class="section-title">Make a wish</h2>
+  <p class="treasure-intro" style="text-align:center; margin:0 auto;">Tap each candle, or use the mic and actually blow.</p>
+  <button class="mic-blow-btn" id="mic-blow-btn">&#127908; Blow into the mic</button>
+  <div class="cake-wrap" id="cake-wrap">
+    <div class="cake">
+      <button class="candle" data-i="0"><span class="flame"></span></button>
+      <button class="candle" data-i="1"><span class="flame"></span></button>
+      <button class="candle" data-i="2"><span class="flame"></span></button>
+      <div class="cake-top"></div>
+      <div class="cake-body"></div>
+    </div>
+  </div>
+  <div class="final-msg" id="final-msg">Happy Birthday, Ammu. I love you. &#10084;&#65039;</div>
+</section>
+ 
+<footer>made with love, for Ammu &mdash; Sep 4</footer>
+ 
+<script src="script.js"></script>
+</body>
+</html>
